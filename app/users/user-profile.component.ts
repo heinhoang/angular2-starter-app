@@ -12,5 +12,5 @@ import { User } from '../shared/models/user';
   `
 })
 export class UserProfileComponent {
-  @Input() user: User;
+  @Input() user: User; // @Input indicates parent Components can input to. Such as, [user]="..."
 }

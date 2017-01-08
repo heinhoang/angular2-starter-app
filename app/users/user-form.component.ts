@@ -36,7 +36,7 @@ import { User } from '../shared/models/user';
   `
 })
 export class UserFormComponent {
-  @Output() userCreated = new EventEmitter();
+  @Output() userCreated = new EventEmitter(); // @Output indicates parent Components can use this. Such as, (userCreated)="someFunction($event)
   newUser: User = new User();
   active: boolean = true;
 

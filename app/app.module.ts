@@ -6,15 +6,15 @@ import { UserProfileComponent } from './users/user-profile.component';
 import { UserFormComponent } from './users/user-form.component';
 
 @NgModule({
-  imports: [ 
+  imports: [ // import modules
     BrowserModule,
     FormsModule
   ],
-  declarations: [ 
+  declarations: [ // import components & directive
     AppComponent,
     UserProfileComponent,
     UserFormComponent
   ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [ AppComponent ] // start app
 })
 export class AppModule {}
